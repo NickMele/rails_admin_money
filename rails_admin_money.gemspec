@@ -9,9 +9,8 @@ Gem::Specification.new do |s|
   s.version     = RailsAdminMoney::VERSION
   s.authors     = ["Nick Mele"]
   s.email       = ["nickmele26@gmail.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of RailsAdminMoney."
-  s.description = "TODO: Description of RailsAdminMoney."
+  s.homepage    = "https://github.com/NickMele/rails_admin_money"
+  s.summary     = "Rails Admin field type for money-rails attributes"
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
