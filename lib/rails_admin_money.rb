@@ -13,7 +13,7 @@ module RailsAdmin
           RailsAdmin::Config::Fields::Types::register(self)
 
           register_instance_option :pretty_value do
-            formatted_value.presence.format || ' - '
+            formatted_value.nil? ? ' - ' : formatted_value.format
           end
         end
       end
